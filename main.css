@@ -1,0 +1,94 @@
+*{
+ box-sizing: border-box;
+}
+
+body{
+ margin:0;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+header .container{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+header{
+ background-color: black;
+ padding: 10px 0;
+}
+
+header nav a{
+ text-decoration: none;
+ color: white;
+ margin-left: 10px;
+}
+
+.jumbotron{
+ background-attachment: fixed;
+ background-image: url('img/header.jpg');
+ padding: 8.75rem 0;
+ height: 600px;
+ color: blanchedalmond;
+ text-align: center;
+ font-size: 5rem;
+}
+
+footer{
+ /* margin: 0 auto; */
+ background-color: blanchedalmond;
+ text-align: center;
+}
+
+.container{
+ margin: 0 auto; 
+ width: 80%;
+}
+.grid{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 5px;
+}
+
+.services{
+ padding: 3rem 0;
+}
+.services h3{
+ text-align: center;
+ font-size: 4em;
+ margin: 0.5em;
+}
+
+.portfolio{
+ padding: 30px 0;
+}
+.portfolio_grid{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 5px;
+}
+
+.item_1{
+ grid-row: 1/4;
+}
+
+.item_3{
+ vertical-align: top;
+ /* grid-row: 2/3; */
+}
+.portfolio_grid img{
+ width: 100%;
+}
+
+.subcribe{
+ background-color: blueviolet;
+ text-align: center;
+ padding: 3rem 0;
+ color: white;
+}
+
+.subcribe button{
+ border: 1px solid white;
+ background-color: transparent;
+ padding: 1rem 3rem;
+ color: white;
+}
